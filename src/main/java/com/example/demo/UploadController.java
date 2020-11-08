@@ -60,7 +60,7 @@ public class UploadController {
 
       @RequestMapping("/imgs")
       @ResponseBody
-      public String uploadImg(@RequestParam("files")MultipartFile[] files){
+      public String uploadImg(@RequestParam("files")MultipartFile[] files ){
           List<String> urls = new ArrayList<>();
           if (files.length==0){
               return  "fail";
