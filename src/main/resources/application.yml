@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+img:
+  upload-path: F:/yunxiu/demo/src/main/resources/static/imgs/
+  img-url: http://127.0.0.1:8080/imgs/
+
+resources:
+  static-locations: file:${img.upload-path}
